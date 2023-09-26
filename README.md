@@ -5,8 +5,7 @@ addSong Method
   A method that accepts a single Song object and adds that Song to the playlist.
 
 readPlaylistFile method
-  Reads an input file and populates the List of Song. The input file is a plain text file. The data is formatted as one song per line with each field of data separated by colons in this format:
-  <title as file name> : <artist>  : <album> : <playcount>
+  Reads an input file and populates the List of Song. The input file is a plain text file. The data is formatted as one song per line with each field of data separated by colons in this format.
 
 hasSongsBy method
   A method that accepts a list of Songs and an artist name and returns true if the list contains any Songs by the given artist.
